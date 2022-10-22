@@ -1,12 +1,12 @@
-import React from 'react';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
+import './App.css';
+import HeroSlider from './components/HeroSlider';
+// import Navbar from './components/NavComponent'
 
 function App() {
 	return (
 		<>
-			<Navbar />
-			<Hero />
+			{/* <Navbar /> */}
+			<HeroSlider />
 		</>
 	);
 }
